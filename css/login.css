@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Slabo 27px', serif;
+}
+
+.background{
+    background-color: crimson;
+    width: 20%;
+    
+    margin: 0 auto;
+    height: 80%;
+}
+
+caption {
+    font-family: 'Oswald', sans-serif;
+    background-color: crimson;
+    caption-side: top;    
+    font-size: 150%;
+}
+
+table{
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+    height:100%;
+    font-family: 'Slabo 27px', serif;
+}
+
+.btn{
+    background-color: white;
+    border: 2px crimson solid;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Slabo 27px', serif;
+    width: 50%;
+}
+
+.btn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.alert{
+    font-size:120%;
+    background-color: crimson;
+    text-align: center;
+}
+
+input[type=text], input[type=password]{
+    border: 2px crimson solid;
+    width: 60%;
+    font-size: 120%;
+    border-radius:5px;
+    margin: 0 auto;
+    height: 80%;
+    
+}
+
+.empty-field {
+    border: 2px solid red;
+}
